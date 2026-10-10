@@ -1,0 +1,346 @@
+{
+  "meta": {
+    "seed": 0,
+    "n_seeds": 3,
+    "eps": 0.1,
+    "guarantee_1_minus_1oe": 0.6321205588285577,
+    "python": "3.13.14",
+    "elapsed_sec": 0.865
+  },
+  "guarantee_phase": [
+    {
+      "function": "FacilityLocation",
+      "n": 14,
+      "k": 5,
+      "opt": 8.198111600960647,
+      "greedy": {
+        "mean": 8.198111600960647,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_greedy": {
+        "mean": 8.198111600960647,
+        "std": 0.0,
+        "n": 3
+      },
+      "stochastic_greedy": {
+        "mean": 8.151254753450155,
+        "std": 0.033132794619693325,
+        "n": 3
+      },
+      "lazy_stochastic": {
+        "mean": 8.146891025046703,
+        "std": 0.036610611669934366,
+        "n": 3
+      },
+      "continuous_greedy": {
+        "mean": 7.813542340289174,
+        "std": 0.0,
+        "n": 3
+      },
+      "random_baseline": {
+        "mean": 7.407518263843097,
+        "std": 0.2458428317634252,
+        "n": 3
+      },
+      "ratio_to_opt": 1.0,
+      "ratio_to_guarantee": 1.5819767068693265,
+      "passes_guarantee": true
+    },
+    {
+      "function": "SetCover",
+      "n": 14,
+      "k": 5,
+      "opt": 37.0,
+      "greedy": {
+        "mean": 36.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_greedy": {
+        "mean": 36.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "stochastic_greedy": {
+        "mean": 34.0,
+        "std": 0.816496580927726,
+        "n": 3
+      },
+      "lazy_stochastic": {
+        "mean": 36.0,
+        "std": 0.816496580927726,
+        "n": 3
+      },
+      "continuous_greedy": {
+        "mean": 35.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "random_baseline": {
+        "mean": 31.0,
+        "std": 0.816496580927726,
+        "n": 3
+      },
+      "ratio_to_opt": 0.972972972972973,
+      "ratio_to_guarantee": 1.539220579656642,
+      "passes_guarantee": true
+    },
+    {
+      "function": "SaturationCoverage",
+      "n": 18,
+      "k": 6,
+      "opt": 6.0,
+      "greedy": {
+        "mean": 6.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_greedy": {
+        "mean": 6.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "stochastic_greedy": {
+        "mean": 6.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_stochastic": {
+        "mean": 6.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "continuous_greedy": {
+        "mean": 6.0,
+        "std": 0.0,
+        "n": 3
+      },
+      "random_baseline": {
+        "mean": 4.0,
+        "std": 0.816496580927726,
+        "n": 3
+      },
+      "ratio_to_opt": 1.0,
+      "ratio_to_guarantee": 1.5819767068693265,
+      "passes_guarantee": true
+    },
+    {
+      "function": "LogDetFeatureSelection",
+      "n": 12,
+      "k": 4,
+      "opt": 8.8128544248379,
+      "greedy": {
+        "mean": 8.8128544248379,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_greedy": {
+        "mean": 8.8128544248379,
+        "std": 0.0,
+        "n": 3
+      },
+      "stochastic_greedy": {
+        "mean": 8.8128544248379,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_stochastic": {
+        "mean": 8.8128544248379,
+        "std": 0.0,
+        "n": 3
+      },
+      "continuous_greedy": {
+        "mean": 6.278728331875333,
+        "std": 0.0,
+        "n": 3
+      },
+      "random_baseline": {
+        "mean": 6.64764208570831,
+        "std": 0.6516341288771789,
+        "n": 3
+      },
+      "ratio_to_opt": 1.0,
+      "ratio_to_guarantee": 1.5819767068693265,
+      "passes_guarantee": true
+    },
+    {
+      "function": "InfluenceIC",
+      "n": 14,
+      "k": 4,
+      "opt": 7.316666666666666,
+      "greedy": {
+        "mean": 6.666666666666667,
+        "std": 0.0,
+        "n": 3
+      },
+      "lazy_greedy": {
+        "mean": 6.666666666666667,
+        "std": 0.0,
+        "n": 3
+      },
+      "stochastic_greedy": {
+        "mean": 6.65,
+        "std": 0.11626916409142414,
+        "n": 3
+      },
+      "lazy_stochastic": {
+        "mean": 6.7444444444444445,
+        "std": 0.05499719409228684,
+        "n": 3
+      },
+      "continuous_greedy": {
+        "mean": 5.833333333333333,
+        "std": 0.0,
+        "n": 3
+      },
+      "random_baseline": {
+        "mean": 5.572222222222222,
+        "std": 0.4247729967470063,
+        "n": 3
+      },
+      "ratio_to_opt": 0.9111617312072894,
+      "ratio_to_guarantee": 1.441436634960662,
+      "passes_guarantee": true
+    }
+  ],
+  "scale_phase": [
+    {
+      "function": "FacilityLocation",
+      "n": 80,
+      "k": 10,
+      "greedy_value": 45.79065015358872,
+      "lazy_value": 45.79065015358872,
+      "lazy_eq_greedy": true,
+      "stochastic_value": 45.79065015358872,
+      "stochastic_delta": 0.0,
+      "greedy_time": 0.05803110000124434,
+      "lazy_time": 0.0004121999991184566,
+      "stochastic_time": 0.0007990999984031077,
+      "speedup_lazy": 140.78384309886317,
+      "speedup_stochastic": 72.62057329146737
+    },
+    {
+      "function": "SetCover",
+      "n": 60,
+      "k": 10,
+      "greedy_value": 58.0,
+      "lazy_value": 58.0,
+      "lazy_eq_greedy": true,
+      "stochastic_value": 58.0,
+      "stochastic_delta": 0.0,
+      "greedy_time": 0.004065299999638228,
+      "lazy_time": 0.0002640000020619482,
+      "stochastic_time": 0.002052799998637056,
+      "speedup_lazy": 15.398863514721853,
+      "speedup_stochastic": 1.9803682786132886
+    },
+    {
+      "function": "SaturationCoverage",
+      "n": 80,
+      "k": 12,
+      "greedy_value": 8.0,
+      "lazy_value": 8.0,
+      "lazy_eq_greedy": true,
+      "stochastic_value": 8.0,
+      "stochastic_delta": 0.0,
+      "greedy_time": 0.0014350999990710989,
+      "lazy_time": 0.0001869000006990973,
+      "stochastic_time": 0.0016568999999435619,
+      "speedup_lazy": 7.678437633510561,
+      "speedup_stochastic": 0.8661355538173588
+    }
+  ],
+  "sfm_phase": [
+    {
+      "function": "GraphCut",
+      "n": 12,
+      "sfm_value": 0.0,
+      "brute_value": 0.0,
+      "match": true
+    },
+    {
+      "function": "ConcaveOverModular(NM)",
+      "n": 12,
+      "sfm_value": -137.94211885994767,
+      "brute_value": -137.94211885994767,
+      "match": true
+    }
+  ],
+  "ablation": [
+    {
+      "function": "FacilityLocation",
+      "k": 6,
+      "greedy_mean": 11.433558803778958,
+      "random_mean": 10.180345922583577,
+      "margin": 1.253212881195381
+    },
+    {
+      "function": "SaturationCoverage",
+      "k": 6,
+      "greedy_mean": 6.0,
+      "random_mean": 4.666666666666667,
+      "margin": 1.333333333333333
+    }
+  ],
+  "determinism": {
+    "max_abs_diff_excl_time": 0.0,
+    "deterministic": true
+  },
+  "grade": "S",
+  "failure_cases": [
+    {
+      "function": "FacilityLocation",
+      "k": 5,
+      "greedy": 8.1981,
+      "opt": 8.1981,
+      "abs_gap": 0.0,
+      "relative_gap": 0.0,
+      "cause": "diminishing returns 使贪心至多达到 (1-1/e)·OPT, 该界为紧界 (Nemhauser, Wolsey & Fisher, 1978), 非算法缺陷."
+    },
+    {
+      "function": "SetCover",
+      "k": 5,
+      "greedy": 36.0,
+      "opt": 37.0,
+      "abs_gap": 1.0,
+      "relative_gap": 0.027,
+      "cause": "diminishing returns 使贪心至多达到 (1-1/e)·OPT, 该界为紧界 (Nemhauser, Wolsey & Fisher, 1978), 非算法缺陷."
+    },
+    {
+      "function": "SaturationCoverage",
+      "k": 6,
+      "greedy": 6.0,
+      "opt": 6.0,
+      "abs_gap": 0.0,
+      "relative_gap": 0.0,
+      "cause": "diminishing returns 使贪心至多达到 (1-1/e)·OPT, 该界为紧界 (Nemhauser, Wolsey & Fisher, 1978), 非算法缺陷."
+    },
+    {
+      "function": "LogDetFeatureSelection",
+      "k": 4,
+      "greedy": 8.8129,
+      "opt": 8.8129,
+      "abs_gap": 0.0,
+      "relative_gap": 0.0,
+      "cause": "diminishing returns 使贪心至多达到 (1-1/e)·OPT, 该界为紧界 (Nemhauser, Wolsey & Fisher, 1978), 非算法缺陷."
+    },
+    {
+      "function": "InfluenceIC",
+      "k": 4,
+      "greedy": 6.6667,
+      "opt": 7.3167,
+      "abs_gap": 0.65,
+      "relative_gap": 0.0888,
+      "cause": "diminishing returns 使贪心至多达到 (1-1/e)·OPT, 该界为紧界 (Nemhauser, Wolsey & Fisher, 1978), 非算法缺陷."
+    },
+    {
+      "function": "FacilityLocation",
+      "k": 5,
+      "greedy": 8.1981,
+      "stochastic_eps0.5": 7.9351,
+      "abs_gap": 0.263,
+      "cause": "随机贪心 eps=0.5 牺牲精度换 O(n log k) 速度, 理论界降至 (1-1/e-eps)·OPT."
+    }
+  ]
+}
